@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Login - Mundo Animal</title>
+
+    <style>
+        body {
+            background: #e2f3e9;
+            font-family: Arial;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .box {
+            background: white;
+            padding: 30px;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #999;
+            text-align: center;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 15px;
+            background: #1b3a57;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #1b3a57;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+        <h2>Login</h2>
+
+        <input type="text" placeholder="Usuário">
+        <input type="password" placeholder="Senha">
+
+        <button onclick="window.location.href='index.html'">Entrar</button>
+
+        <p><a href="index.html">Entrar sem login</a></p>
+    </div>
+
+</body>
+</html>
